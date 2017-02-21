@@ -10,7 +10,7 @@ class Create_database
     
     public function __construct($host,$user,$password)
     {    
-        $this->pdo = new PDO('mysql:host='.$host.':8080'.';', $user, $password);
+        $this->pdo = new PDO('mysql:host='.$host.';', $user, $password);
     }
     //creamos la base de datos y las tablas que necesitemos
     public function my_db()

@@ -7,6 +7,6 @@ $db = new Create_database($host,$user,$password);
 $db->my_db();
 $db->clie();
 
-echo "Base de datos creada con exito";
+echo "La base de datos se ha creado con éxito";
                                
 //header('Location: PSP0/../../../index.php');
